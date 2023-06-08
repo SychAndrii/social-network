@@ -5,7 +5,7 @@ type Props = {}
 
 const SearchIcon = (props: Props) => {
   return (
-    <FaSearch className="text-icon" />
+    <FaSearch />
   )
 }
 

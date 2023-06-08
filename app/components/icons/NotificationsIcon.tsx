@@ -5,7 +5,7 @@ type Props = {}
 
 const NotificationsIcon = (props: Props) => {
   return (
-    <FaRegBell className="text-icon text-xl" />
+    <FaRegBell />
   )
 }
 

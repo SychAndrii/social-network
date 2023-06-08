@@ -6,7 +6,7 @@ type Props = {
 
 function MobileItemWrapper({ children }: Props) {
     return (
-        <div className={`py-2 flex items-center hover:bg-slate-100 hover:cursor-pointer`}>
+        <div className={`flex flex-col items-center py-2  hover:cursor-pointer`}>
             {children}
         </div>
     )

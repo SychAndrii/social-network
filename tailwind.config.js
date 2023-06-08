@@ -12,7 +12,7 @@ module.exports = {
         'small-text': 'rgb(100 116 139)'
       },
       screens: {
-        'dekstop': '992px'
+        'desktop': '992px'
       }
     }
   },
