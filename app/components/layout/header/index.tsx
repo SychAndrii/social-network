@@ -23,10 +23,10 @@ type Props = {}
 
 const Header = (props: Props) => {
     return (
-        <header className="desktop:px-4 flex">
+        <header className="desktop:px-4 flex mb-3">
             {/* Destktop header */}
 
-            <div className="desktop:flex max-w-7xl w-full justify-evenly mx-auto hidden">
+            <div className="desktop:flex max-w-desktop-edge w-full justify-between mx-auto hidden">
                 <div className="flex items-center">
                     <Logo /> <span className={`font-bold pl-1 text-2xl relative  -top-[0.9px] ${styles.globalInput}`}>vkontakte</span>
                     <GlobalInput />
