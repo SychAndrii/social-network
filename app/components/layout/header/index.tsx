@@ -23,7 +23,7 @@ type Props = {}
 
 const Header = (props: Props) => {
     return (
-        <header className="desktop:px-4 flex mb-3">
+        <header className="desktop:px-4 flex">
             {/* Destktop header */}
 
             <div className="desktop:flex max-w-desktop-edge w-full justify-between mx-auto hidden">

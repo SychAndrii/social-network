@@ -13,10 +13,13 @@ module.exports = {
         'attention-color': '#447BBA'
       },
       colors: {
-        'blue-hover': 'rgb(226 232 240)',
+        'light-blue': 'rgb(226 232 240)',
+        'strong-blue': 'rgb(203 213 225)',
+        'grey-bg': '#EDEEF0'
       },
       screens: {
-        'desktop': '992px'
+        'desktop': '992px',
+        'main-padding': '1305px'
       },
       maxWidth: {
         'desktop-edge': '1280px'

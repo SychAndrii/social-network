@@ -10,7 +10,7 @@ type Props = {
 const NavigationItem = ({text, icon, href}: Props) => {
   return (
     <>
-    <a href={href} className="flex items-end">
+    <a href={href} className="flex items-end w-full">
     <IconContainer classes="mr-2 !text-attention-color">
             {icon}
     </IconContainer>

@@ -22,7 +22,9 @@ export default function RootLayout({
         <Header />
         <Main>
           <Navigation />
-          {children}
+          <div className='w-full'>
+            {children}
+          </div>
         </Main>
       </body>
     </html>
