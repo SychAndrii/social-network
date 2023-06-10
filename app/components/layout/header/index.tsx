@@ -15,9 +15,10 @@ import SearchIcon from '../../icons/SearchIcon'
 import MessageIcon from '../../icons/MessageIcon'
 import BarsIcon from '../../icons/BarsIcon'
 import IconContainer from '../../icons/IconContainer'
-import GreyButton from '../../elements/GreyButton'
+import GreyButton from './HeaderButton'
 import GridIcon from '../../icons/GridIcon'
 import ArrowDownIcon from '../../icons/ArrowDownIcon'
+import PreviewAvatar from '../../elements/avatars/PreviewAvatar'
 
 type Props = {}
 
@@ -49,12 +50,7 @@ const Header = (props: Props) => {
                     </ItemWrapper>
                     <span className="mr-4"></span>
                     <ItemWrapper classes="pl-2 pr-1">
-                        <Image
-                            src={profilePic}
-                            alt="Picture of the author"
-                            className='rounded-full w-8 h-8 object-cover'
-                            quality={100}
-                        />
+                        <PreviewAvatar />
                         <IconContainer classes="ml-2">
                             <ArrowDownIcon />
                         </IconContainer>

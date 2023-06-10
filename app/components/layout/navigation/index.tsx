@@ -62,11 +62,11 @@ const Navigation = (props: Props) => {
     }
   ]
   return (
-    <nav className="mr-5">
+    <nav className="desktop:pr-4 desktop:ml-3 main-padding:ml-0 mr-0">
       <ul className="desktop:flex hidden desktop:flex-col text-sm">
         {
           links.map((link, index) => (
-          <li className="mb-3 hover:bg-light-blue p-1 hover:cursor-pointer w-40" key={index}>
+          <li className="mb-3 hover:bg-light-blue p-1 hover:cursor-pointer w-36" key={index}>
             <NavigationItem text={link.text} icon={link.icon} href={link.href} />
           </li>))
         }

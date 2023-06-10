@@ -2,3 +2,10 @@
     background: rgb(42,42,42);
     background: linear-gradient(15deg, rgba(42,42,42,1) 0%, rgba(240,239,239,1) 100%);
 }
+
+@media screen and (max-width: 992px) {
+    .defaultCoverBG {
+        background: rgb(42,42,42);
+        background: linear-gradient(360deg, rgba(42,42,42,1) 0%, rgba(240,239,239,1) 100%);
+    }
+}
